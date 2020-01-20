@@ -1,4 +1,4 @@
-# Ambiente | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/M3nin0/ambiente-dataat/master)
+# Ambiente | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dataAt/ambiente/master)
 
 Este repositório apresenta formas de configuração do ambiente necessário para os cursos do dataAt.
 
