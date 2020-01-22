@@ -10,7 +10,7 @@ Para saber mais sobre a plataforma adotada para a execução do curso, consulte 
 
 A parte prática do curso de introdução à análise de dados será feita utilizando a plataforma `Kaggle`, que atualmente distribui uma boa quantidade de recurso computacional para os utilizadores, sem contar que apresenta diversas facilidades na configuração do ambiente.
 
-Porém, neste repositório, algumas outras formas de configuração do ambiente foram listadas, apenas para que você saiba que existem outras possibilidades e que essas podem ser empregadas, mesmo não possuindo as mesmas facilidades de uso da plataforma `Kaggle`.
+Porém, neste repositório, algumas outras formas de configuração do ambiente foram listadas, apenas para que você saiba que existem outras possibilidades e que essas podem ser empregadas, dependendo de seu contexto e necessidade. 
 
 - [Binder](https://mybinder.org/v2/gh/dataAt/ambiente/master)
 - [Instalação do Anaconda (Windows)](install-anaconda-windows.md)
