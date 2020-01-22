@@ -25,10 +25,9 @@ chmod +x Anaconda3-2019.10-Linux-x86_64.sh
 
 No final da instalação será exibido uma opção para iniciar o ambiente Python junto ao seu `shell`, é recomendado que esta opção seja habilitada.
 
-Com o ambiente instalado, faça a instalação dos pacotes `GeoPandas` e `descartes`.
-
-```shell
-conda install -c conda-forge geopandas descartes
-```
-
 > Caso você não tenha habilitado a inicialização do ambiente conda junto ao shell, a execução do comando acima deverá ser feita com: conda activate base && conda install -c conda-forge geopandas descartes
+
+Agora inicie o ambiente do anaconda e vá para as páginas de configuração dos ambientes
+
+- [Configuração do ambiente R](config-env-r.md)
+- [Configuração do ambiente Python](config-env-python.md)

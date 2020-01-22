@@ -4,8 +4,13 @@ Este repositório apresenta formas de configuração do ambiente necessário par
 
 > Caso você prefira, utilize o Binder, este carrega todo o ambiente em um container na web, você não configura nada
 
-## Tabela de conteúdos
+## Soluções on-line
 
-- [Instalação do Python (Linux)](install-python-linux.md)
-- [Instalação do Python (Windows)](install-python-windows.md)
+- [Kaggle]()
+- [Binder]()
+
+## Instalações locais
+
+- [Instalação do Anaconda (Windows)](install-anaconda-windows.md)
+- [Instalação do Anaconda (Linux)](install-python-linux.md)
 - [Configuração do ambiente via Docker](install-env-docker.md)
