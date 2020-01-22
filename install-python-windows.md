@@ -16,7 +16,7 @@ Na página de *download*, faça a seleção da versão de `Windows` e então bai
 Após finalizar o *download*, execute o arquivo baixado para iniciar a instalação.
 
 <p align="center">
-    <img src="images/python-install-windows/5.png">
+    <img src="images/python-install-windows/3.png">
 </p>
 
 Diversas opções serão exibidas durante a instalação, recomenda-se manter todos os parâmetros padrão, com exceção da seleção da opção `Register Anaconda as my default Python 3.7`. É importante esta opção ser marcada.
