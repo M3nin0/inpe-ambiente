@@ -4,7 +4,7 @@ Este repositório apresenta as formas de configuração do ambiente necessário 
 
 > Toda a parte prática do curso fará a utilização do ambiente [Kaggle](https://www.kaggle.com/)
 
-Para saber mais sobre a plataforma adotada para a execução do curso, consulte o [material de utilização do Kaggle](#).
+Para saber mais sobre a plataforma adotada para a execução do curso, consulte o [material de utilização do Kaggle](https://github.com/dataAt/inpe-ambiente/blob/master/introducao-kaggle/documentacao_kaggle.pdf).
 
 ## Extras
 
