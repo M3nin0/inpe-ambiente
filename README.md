@@ -1,16 +1,18 @@
-# Ambiente | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dataAt/ambiente/master)
+# Ambiente | INPE
 
-Este repositório apresenta formas de configuração do ambiente necessário para os cursos do dataAt.
+Este repositório apresenta as formas de configuração do ambiente necessário para o curso de introdução à análise de dados utilizando R e Python.
 
-> Caso você prefira, utilize o Binder, este carrega todo o ambiente em um container na web, você não configura nada
+> Toda a parte prática do curso fará a utilização do ambiente [Kaggle](https://www.kaggle.com/)
 
-## Soluções on-line
+Para saber mais sobre a plataforma adotada para a execução do curso, consulte o [material de utilização do Kaggle](#).
 
-- [Kaggle]()
-- [Binder]()
+## Extras
 
-## Instalações locais
+A parte prática do curso de introdução à análise de dados será feita utilizando a plataforma `Kaggle`, que atualmente distribui uma boa quantidade de recurso computacional para os utilizadores, sem contar que apresenta diversas facilidades na configuração do ambiente.
 
+Porém, neste repositório, algumas outras formas de configuração do ambiente foram listadas, apenas para que você saiba que existem outras possibilidades e que essas podem ser empregadas, mesmo não possuindo as mesmas facilidades de uso da plataforma `Kaggle`.
+
+- [Binder](https://mybinder.org/v2/gh/dataAt/ambiente/master)
 - [Instalação do Anaconda (Windows)](install-anaconda-windows.md)
 - [Instalação do Anaconda (Linux)](install-python-linux.md)
 - [Configuração do ambiente via Docker](install-env-docker.md)
