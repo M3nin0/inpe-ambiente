@@ -50,5 +50,12 @@ Desta saída, copie o token e complete a URL para utilizar o notebook:
 `
 http://127.0.0.1:12000/?token=SEU_TOKEN_AQUI
 `
+Depois de trocar o texto `SEU_TOKEN_AQUI` pelo token recuperado, copie o link e insira no navegador.
 
-Pronto! Depois de trocar o texto `SEU_TOKEN_AQUI` pelo token recuperado, copie o link e insira no navegador.
+Ao acessar o navegador ,já será possível ver o ambiente, como apresentado abaixo, pronto para uso.
+
+<p align="center">
+    <img src="images/install-env-docker/0.png">
+</p>
+
+Feito! Você está pronto para fazer anaĺise de dados
