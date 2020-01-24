@@ -14,5 +14,5 @@ Porém, neste repositório, algumas outras formas de configuração do ambiente 
 
 - [Binder](https://mybinder.org/v2/gh/dataAt/ambiente/master)
 - [Instalação do Anaconda (Windows)](install-anaconda-windows.md)
-- [Instalação do Anaconda (Linux)](install-python-linux.md)
+- [Instalação do Anaconda (Linux)](install-anaconda-linux.md)
 - [Configuração do ambiente via Docker](install-env-docker.md)
