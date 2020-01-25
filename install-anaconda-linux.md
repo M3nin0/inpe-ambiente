@@ -1,8 +1,8 @@
-# Instalação do Python no Linux (Ubuntu 18.04)
+# Instalação do Anaconda 3 | Ubuntu 18.04
 
-Esta página apresenta os passos para a instalação do Python 3.7 (Anaconda)
+Esta página apresenta os passos para a instalação do ambiente [Anaconda 3](https://docs.anaconda.com/anaconda/), uma plataforma voltada para o gerenciamento de ambientes de execução para análise de dados, suportando linguagens como Python e R.
 
-> Os passos foram testados no Ubuntu 18.04, porém versões superiores também serão compativeis.
+> Os passos realizados neste documento foram feitos no Ubuntu 18.04, mas podem ser reproduzidos em outras versões Linux, para saber mais consulte a [documentação do Anaconda](https://docs.anaconda.com/anaconda/install/linux/)
 
 Para iniciar, faça a instalação da ferramenta que auxilia no *download* dos pacotes
 
@@ -25,9 +25,11 @@ chmod +x Anaconda3-2019.10-Linux-x86_64.sh
 
 No final da instalação será exibido uma opção para iniciar o ambiente Python junto ao seu `shell`, é recomendado que esta opção seja habilitada.
 
-> Caso você não tenha habilitado a inicialização do ambiente conda junto ao shell, a execução do comando acima deverá ser feita com: conda activate base && conda install -c conda-forge geopandas descartes
+Agora inicie o ambiente do Anaconda e vá para as páginas de configuração dos ambientes utilizados no curso. 
 
-Agora inicie o ambiente do anaconda e vá para as páginas de configuração dos ambientes
+> Caso você tenha habilitado a inicialização do ambiente conda junto ao `shell`, basta reiniciar o terminal e o ambiente já estará ativo, do contrário, será necessário utilizar o comando `conda activate base`
+
+Com o conda configurado e ativado, vá para as páginas de configuração dos ambientes utilizados no curso.
 
 - [Configuração do ambiente R](config-env-r.md)
 - [Configuração do ambiente Python](config-env-python.md)

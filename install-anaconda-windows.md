@@ -1,8 +1,8 @@
-# Instalação do Anaconda no Windows
+# Instalação do Anaconda 3 | Microsoft Windows
 
-Esta página apresenta os passos para a realização da instalação do ambiente Python no Sistema Operacional Windows 10.
+Esta página apresenta os passos para a instalação do ambiente [Anaconda 3](https://docs.anaconda.com/anaconda/), uma plataforma voltada para o gerenciamento de ambientes de execução para análise de dados, suportando linguagens como Python e R.
 
-> Os passos realizados neste tutorial foram feitos no Windows 10, mas é possível reproduzir os mesmos passos em versões anteriores
+> Os passos realizados neste documento foram feitos no Microsoft Windows 10, mas estes podem ser realizados em versões anteriores do sistema operacional. Para saber mais consulte a [documentação do Anaconda](https://docs.anaconda.com/anaconda/install/windows/)
 
 Para iniciar a instalação, acesse a [página de *download* do Anaconda](https://www.anaconda.com/distribution/#download-section), uma distibuição do Python voltada para a análise de dados, neste os principais pacotes já estão configurados e prontos para uso.
 

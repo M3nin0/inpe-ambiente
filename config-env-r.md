@@ -1,8 +1,6 @@
 ## Configuração do ambiente R
 
-Esta página apresenta os passos para a configuração do ambiente R utilizando o ambiente de execução Anaconda.
-
-Para configurar o ambiente R é necessário instalar todos os pacotes base da linguagem e as bibliotecas utilizadas no curso.
+Esta página apresenta os passos para a configuração do ambiente R para o curso de `Introdução à análise de dados` utilizando o Anaconda. Tal configuração é feita com a instação dos pacotes base da linguagem e as dependências utilizadas no curso.
 
 Inicialmente faça a criação de um ambiente virtual, para alocar todos os pacotes do R separados do Python. Isto evita problemas de dependências.
 
@@ -31,3 +29,11 @@ conda install -c conda-forge r-sf
 ```
 
 Feito! Com os comandos executados com sucesso, seu ambiente já estará configurado.
+
+## Dica
+
+Caso você esteja no ambiente R e deseja voltar para o ambiente Python, utilize o seguinte comando
+
+```shell
+conda activate base
+```
