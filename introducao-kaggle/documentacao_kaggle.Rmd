@@ -24,20 +24,21 @@ header-includes:
  \usepackage[T1]{fontenc}
  \usepackage{multirow}
  \usepackage{xcolor}
+ \usepackage{hyperref}
 mathtools: true
 bibliography: ./template/references-sits.bib
 abstract: Neste documento objetiva-se apresentar ao aluno a plataforma kaggle como meio de criação, execução e reprodução de notebooks.
 ---
 
-# Descrição do kaggle
+# Sobre o Kaggle
 
 Kaggle é uma plataforma que oferece um ambiente sem configurações, personalizável, através de repositórios com  jupyter notebook. Além de que, disponibiliza o uso de GPUs de forma gratuita e o acesso a um enorme repositório de dados e códigos publicados pela comunidade.
 
+As seções abaixo apresentam os passos iniciais de utilização da plataforma.
 
 # Cadastro
 
-A Figura \ref{fig:telacadastro} apresenta a tela inicial da plataforma, para criar uma conta no kaggle basta acessar o ícone ${\textbf{Register}}^{\ \textcolor{red}{1}\ ou\ \textcolor{red}{3}}$, e para entrar na plataforma com a sua conta já criada, acesse ${\textbf{Sign In}}^{\ \textcolor{red}{2}}$.
-
+Para iniciar o processo de cadastro, acesse [Kaggle](https://www.kaggle.com/). Na página principal da plataforma, apresentada na Figura \ref{fig:telacadastro}, clique no ícone ${\textbf{Register}}^{\ \textcolor{red}{1}\ ou\ \textcolor{red}{3}}$. Caso já tenha uma conta registrada, utilize a opção ${\textbf{Sign In}}^{\ \textcolor{red}{2}}$.
 
 \begin{figure}[!htb]
     \centering
@@ -46,12 +47,11 @@ A Figura \ref{fig:telacadastro} apresenta a tela inicial da plataforma, para cri
     \label{fig:telacadastro}
 \end{figure}
 
-
 Após aceitar os termos de uso, é necessário inserir o código de segurança (Figura \ref{fig:codigo}), o qual foi enviado no email cadastrado. Caso não tenha recebido, verifique a caixa de \textit{Spam}.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[height = 200px,width=\linewidth]{./img/code_number.png}
+    \includegraphics[height = 150px,width=200px]{./img/code_number_2.png}
     \caption{Tela de segurança}
     \label{fig:codigo}
 \end{figure}
@@ -59,17 +59,16 @@ Após aceitar os termos de uso, é necessário inserir o código de segurança (
 
 # Criação de um notebook
 
+Dentro da plataforma Kaggle, os ambientes para a execução dos códigos, chamados de `Notebooks`, são criados com o [Jupyter Notebook](https://jupyter.org/), uma ferramenta que possibilita a criação de documentos interativos, com códigos que podem ser executados e misturados com equações, visualização de dados e textos descritivos.
 
 Para criar um novo notebook, após o ingresso na plataforma, clique em ${\textbf{Notebooks}}^{\ \textcolor{red}{1}}$, como apresentado na Figura \ref{fig:telacriacao}, em seguida clique em ${\textbf{New Notebook}}^{\ \textcolor{red}{2}}$. Caso tenha dúvidas sobre a plataforma e queira saber mais detalhes, recomendamos a leitura da documentação em \textbf{Documentation}.
 
-
-\begin{figure}[!htb]
+\begin{figure}[H]
     \centering
     \includegraphics[width=\linewidth]{./img/criacao_jupyter.png}
     \caption{Criação de um novo notebook}
     \label{fig:telacriacao}
 \end{figure}
-
 
 Na tela de configurações de um novo notebook, presente na Figura \ref{fig:telaconfig}, é possível selecionar entre duas linguagens de programação${\textbf{}}^{\ \textcolor{red}{1}}$, R e Python, assim como, o tipo de ambiente que deseja criar${\textbf{}}^{\ \textcolor{red}{2}}$, neste curso, \textbf{Notebook}. O ambiente disponibiliza acesso a GPUs${\textbf{}}^{\ \textcolor{red}{3}}$ e sincronização com os serviços Google Cloud, tais configurações não serão utilizadas neste curso.
 
@@ -80,9 +79,7 @@ Na tela de configurações de um novo notebook, presente na Figura \ref{fig:tela
     \label{fig:telaconfig}
 \end{figure}
 
-
-Após selecionada as configurações do Notebook (Figura \ref{fig:telaconfig}), o ambiente levará alguns segundos para iniciar, a Figura apresenta \ref{fig:telaambiente} o ambiente em questão. O Notebook criado é composto por células, as quais são destinadas para escrever códigos e executá-los de modo interativo. É possível criar uma nova célula, assim como executá-la nos botões apresentados no canto superior direito${\textbf{}}^{\ \textcolor{red}{1}}$, para apagar ou mover${\textbf{}}^{\ \textcolor{red}{5}}$ a célula criada basta acessar os ícones que aparecem no canto direito ao clicar na célula. A plataforma oferece 4.9GB de espaço para armazenamento de dados${\textbf{}}^{\ \textcolor{red}{3}}$, 16GB de mémoria e uso de CPU. Outro recurso interessante disponibilizado pela plataforma, é a possibilidade de versionar${\textbf{}}^{\ \textcolor{red}{3}}$ o notebook, de forma a garantir diferentes versões do notebook no mesmo ambiente.
-
+Após selecionada as configurações do Notebook (Figura \ref{fig:telaconfig}), o ambiente levará alguns segundos para iniciar, a Figura apresenta \ref{fig:telaambiente} o ambiente em questão. O Notebook criado é composto por células, as quais são destinadas para escrever códigos e executá-los de modo interativo. É possível criar uma nova célula, assim como executá-la nos botões apresentados no canto superior direito${\textbf{}}^{\ \textcolor{red}{1}}$, para apagar ou mover${\textbf{}}^{\ \textcolor{red}{5}}$ a célula criada basta acessar os ícones que aparecem no canto direito ao clicar na célula. A plataforma oferece 4.9GB de espaço para armazenamento de dados${\textbf{}}^{\ \textcolor{red}{3}}$, 16GB de mémoria e uso de CPU por até 9 horas. Outro recurso interessante disponibilizado pela plataforma, é a possibilidade de versionar${\textbf{}}^{\ \textcolor{red}{3}}$ o notebook, de forma a garantir diferentes versões do notebook no mesmo ambiente.
 
 \begin{figure}[H]
     \centering
@@ -90,5 +87,7 @@ Após selecionada as configurações do Notebook (Figura \ref{fig:telaconfig}), 
     \caption{Detalhes do ambiente}
     \label{fig:telaambiente}
 \end{figure}
+
+Para obter mais informações, não deixe de consultar a [Documentação do Kaggle](https://www.kaggle.com/docs)
 
 
